@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>广告素材视频 · 长期托管</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 40px 20px; background: #f6f7f9; color: #1f2328;
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; }
+  h1 { font-size: 22px; margin: 0 0 6px; font-weight: 600; }
+  .sub { color: #57606a; font-size: 14px; margin-bottom: 24px; }
+  .card {
+    background: #fff; border: 1px solid #d8dee4; border-radius: 10px;
+    padding: 16px; margin-bottom: 18px;
+  }
+  video { width: 100%; border-radius: 8px; background: #000; display: block; }
+  .meta { margin-top: 14px; font-size: 13px; color: #57606a; line-height: 1.9; }
+  .meta b { color: #1f2328; font-weight: 600; }
+  .links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+  a.btn {
+    display: inline-block; padding: 7px 14px; border-radius: 6px; font-size: 13px;
+    background: #0969da; color: #fff; text-decoration: none;
+  }
+  a.btn.gray { background: #f6f8fa; color: #1f2328; border: 1px solid #d8dee4; }
+  code {
+    background: #f6f8fa; border: 1px solid #d8dee4; border-radius: 4px;
+    padding: 2px 6px; font-size: 12.5px; word-break: break-all;
+  }
+  .tip { font-size: 12.5px; color: #57606a; margin-top: 10px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>广告素材视频 · 长期托管</h1>
+  <div class="sub">公网直链，长期有效，任何人可直接打开</div>
+
+  <div class="card">
+    <video controls preload="metadata" playsinline
+           src="videos/ads_0bc3wybauaac6uaj5aa4zvvbrnqebk3aecsa.mp4"></video>
+    <div class="meta">
+      <div><b>素材 ID：</b>0bc3wybauaac6uaj5aa4zvvbrnqebk3aecsa</div>
+      <div><b>时长：</b>约 79 秒　<b>大小：</b>4.5 MB　<b>格式：</b>MP4 (H.264/AAC)</div>
+      <div><b>归档时间：</b>2026-10-23</div>
+      <div><b>视频直链：</b><code id="u">https://jenlin0622.github.io/ads-material-host/videos/ads_0bc3wybauaac6uaj5aa4zvvbrnqebk3aecsa.mp4</code></div>
+    </div>
+    <div class="links">
+      <a class="btn" href="videos/ads_0bc3wybauaac6uaj5aa4zvvbrnqebk3aecsa.mp4" download>下载视频</a>
+      <a class="btn gray" href="videos/ads_0bc3wybauaac6uaj5aa4zvvbrnqebk3aecsa.mp4" target="_blank">新窗口打开直链</a>
+      <a class="btn gray" href="#" onclick="copyUrl();return false;">复制直链</a>
+    </div>
+    <div class="tip">原链接为腾讯广告临时签名地址（2026-10-24 到期），此页面为长期归档版本。</div>
+  </div>
+</div>
+<script>
+function copyUrl() {
+  var t = document.getElementById('u').textContent;
+  navigator.clipboard.writeText(t).then(function () { alert('已复制直链:\n' + t); });
+}
+</script>
+</body>
+</html>
